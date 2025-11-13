@@ -1,0 +1,197 @@
+{
+  "brands": {
+    "hoist": {
+      "name": "HOIST Fitness",
+      "country": "USA",
+      "specialty": "Advanced Strength Technology",
+      "products": [
+        {
+          "name": "ROC-IT® Selectorized",
+          "category": "Strength",
+          "technology": "ROC-IT Dynamic Movement",
+          "features": ["Bio-mechanically optimized", "Natural movement patterns", "Joint-friendly"],
+          "useCase": "Commercial Gyms, Professional Athletes",
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "ROC-IT® Plate Loaded",
+          "category": "Strength",
+          "features": ["Advanced training", "Core engagement", "Heavy-duty construction"],
+          "useCase": "Advanced training, core engagement",
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "Mi6 Functional Trainer",
+          "category": "Functional",
+          "features": ["360-degree rotation", "Dual weight stacks", "Versatile exercises"],
+          "useCase": "Functional training studios",
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "Mi7 Smith",
+          "category": "Strength",
+          "features": ["Ultra-lite bar (30lbs)", "Functional training", "Safety catches"],
+          "useCase": "All-round strength training",
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "Multi Stack Stations",
+          "category": "Multi-Station",
+          "features": ["Multiple users", "Space-efficient", "Complete gym solution"],
+          "useCase": "Commercial gyms, Multiple simultaneous users",
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        }
+      ]
+    },
+    "freemotion": {
+      "name": "FreeMotion Cardio",
+      "country": "USA",
+      "specialty": "Premium Cardio Equipment",
+      "products": [
+        {
+          "name": "t22.9 REFLEX Treadmill",
+          "model": "FMTL70920",
+          "category": "Cardio",
+          "specs": {
+            "speed": "0-15 mph (0-24 km/h)",
+            "incline": "0-15%",
+            "display": "22 inch HD Touchscreen",
+            "weightCapacity": "400 lbs (181 kg)"
+          },
+          "features": ["iFIT Integration", "Impact-reducing deck", "Heart rate monitoring", "Google Maps enabled"],
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "r22.9 Recumbent Bike",
+          "model": "FMEX82520",
+          "category": "Cardio",
+          "specs": {
+            "resistanceLevels": "1-24",
+            "display": "22 inch HD Touchscreen",
+            "weightCapacity": "400 lbs (181 kg)"
+          },
+          "features": ["Back-friendly design", "Step-Thru accessible", "iFIT on-demand workouts"],
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "CoachBike",
+          "model": "FMEX84821",
+          "category": "Cardio",
+          "features": ["Incline/Decline (-10% to +20%)", "SMR magnetic resistance", "Professional training"],
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "e22.9 Elliptical",
+          "model": "FMEL84420",
+          "category": "Cardio",
+          "features": ["Full-body low-impact workout", "22-inch HD display", "iFIT enabled"],
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        }
+      ]
+    },
+    "tunturi": {
+      "name": "Tunturi Fitness",
+      "country": "Netherlands",
+      "specialty": "European Engineering Quality",
+      "products": [
+        {
+          "name": "Cardio Fit Series",
+          "category": "Cardio",
+          "features": ["Durable construction", "Wide resistance range", "Multiple workout programs"],
+          "priceRange": "Mid-range (₹75k-₹150k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "T90 Motorised Treadmill",
+          "category": "Cardio",
+          "specs": {
+            "motor": "5.0 HP AC",
+            "speed": "0.8-24 km/h",
+            "incline": "0-15%",
+            "runningArea": "153 x 55 cm",
+            "maxUserWeight": "150 kg"
+          },
+          "features": ["T-Flex Comfort+ shock absorption", "Bluetooth enabled", "LCD display"],
+          "priceRange": "Mid-range (₹75k-₹150k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        }
+      ]
+    },
+    "concept2": {
+      "name": "Concept2",
+      "country": "USA",
+      "specialty": "Premium Indoor Rowing",
+      "products": [
+        {
+          "name": "RowErg",
+          "category": "Rowing",
+          "specs": {
+            "length": "244 cm",
+            "width": "61 cm",
+            "seatHeight": "36 cm (standard) or 51 cm (tall)",
+            "maxUserWeight": "227 kg"
+          },
+          "features": ["Full-body low-impact workout", "PM5 Monitor", "Adjustable footrests", "Quick-release storage"],
+          "priceRange": "Premium (₹150k+)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        }
+      ]
+    },
+    "energie": {
+      "name": "Energie Fitness",
+      "country": "India",
+      "specialty": "Quality Fitness Solutions",
+      "products": [
+        {
+          "name": "ETB-17 Functional Trainer",
+          "category": "Functional",
+          "specs": {
+            "dimensions": "1050 x 1950 x 2300 mm",
+            "weight": "382 kg",
+            "weightStack": "200 kg"
+          },
+          "features": ["Heavy-duty frame", "Dual weight stacks", "10+ adjustments", "Commercial grade"],
+          "priceRange": "Mid-range (₹75k-₹150k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "PRO-001 Premium Chest Press",
+          "category": "Single Station",
+          "features": ["Ergonomic design", "Adjustable seat", "Smooth movement"],
+          "priceRange": "Budget (Under ₹75k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "PRO-002 Incline Chest Press",
+          "category": "Single Station",
+          "features": ["Incline angle", "Professional grade", "Durable construction"],
+          "priceRange": "Budget (Under ₹75k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "PRO-003 Shoulder Press",
+          "category": "Single Station",
+          "features": ["Shoulder-focused", "Adjustable settings", "Safe operation"],
+          "priceRange": "Budget (Under ₹75k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        },
+        {
+          "name": "PRO-009 Leg Press 45°",
+          "category": "Single Station",
+          "features": ["45-degree angle", "Heavy weight capacity", "Lower body focus"],
+          "priceRange": "Mid-range (₹75k-₹150k)",
+          "link": "https://www.energyfitness.in/e-catalogue/index.php"
+        }
+      ]
+    }
+  }
+}

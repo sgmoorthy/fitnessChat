@@ -378,6 +378,25 @@ Files moved into `public/` to make the static site layout clear. If you'd like a
 
 ---
 
+## RAG Setup (PDFs)
+
+Enable grounded answers using official Energy Fitness PDFs.
+
+- `scripts/scrape_and_index.js` scrapes the catalogue page, downloads PDFs into `public/pdfs/`, and builds `data/index.json` with extracted text.
+- `api/chat.js` retrieves from `data/index.json` and optionally uses an LLM when `OPENAI_API_KEY` is set.
+
+Steps:
+- Install dependencies: `npm install`
+- Build the index locally: `npm run build:index`
+- Verify `public/pdfs/` contains PDFs and `data/index.json` is populated
+- Set `OPENAI_API_KEY` in Vercel Project Settings → Environment Variables (optional but recommended)
+
+Notes:
+- The chat API falls back to a templated answer listing sources when no LLM key is configured.
+- Re-run `npm run build:index` periodically to refresh PDFs and index.
+
+---
+
 ## Contact Information
 
 **Energy Fitness**

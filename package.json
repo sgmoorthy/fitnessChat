@@ -4,9 +4,18 @@
   "private": true,
   "scripts": {
     "start": "vercel dev",
-    "build": "echo \"No build step for static site\""
+    "build": "echo \"No build step for static site\"",
+    "build:index": "node scripts/scrape_and_index.js",
+    "build:index:data": "node scripts/build_index_from_data.js"
   },
   "devDependencies": {
     "vercel": "^28.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.55.0",
+    "pdf-parse": "^1.1.1"
   }
 }
