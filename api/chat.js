@@ -1,6 +1,29 @@
 const fs = require('fs');
 const path = require('path');
 
+function makeProductTable(products) {
+  // products: Array of index objects with title/content/url
+  let headers = "| Name | Category | Features |\n|--|--|--|\n";
+  let rows = products.map(p => 
+    `| [${p.title}](${p.url}) | ${p.category} | ${p.content} |`
+  ).join("\n");
+  return headers + rows;
+}
+
+function composeSummary(query, retrieved) {
+  if (retrieved.length > 1) {
+    return makeProductTable(retrieved);
+  }
+  // One result, output paragraph with link
+  const p = retrieved[0];
+  return `**${p.title}**\n\n${p.content}\n\n[More info](${p.url})`;
+}
+
+const retrieved = retrieve(query, index, k);
+const answer = composeSummary(query, retrieved);
+// If using OpenAI: set context to the relevant content only
+
+
 // api/chat.js
 export default async function handler(req, res) {
   // Simple echo/diagnostics (replace with actual logic)
