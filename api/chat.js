@@ -1,6 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
+// api/chat.js
+export default async function handler(req, res) {
+  // Simple echo/diagnostics (replace with actual logic)
+  const { query } = req.body || {};
+  res.json({
+    answer: `You asked: ${query}`,
+    sources: [],
+  });
+}
+
 // Optional LLM integration (OpenAI). If not configured, we fall back to templated answers.
 let openaiClient = null;
 try {
