@@ -1,0 +1,12 @@
+{
+  "name": "energyfit-chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev",
+    "build": "echo \"No build step for static site\""
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
